@@ -277,6 +277,8 @@
   height: 360px;
 }
 
+/* media screen section start */
+
 @media screen and (max-width: 769px) {
   .hero-hedar h1 {
     font-size: 35px;
@@ -1280,6 +1282,20 @@
   padding-top: 25px;
 }
 
+@media screen and (max-width: 1270px) {
+  .rentus-bg-imge h2 {
+    padding-top: 15%;
+    font-size: 5rem;
+  }
+
+  .rentus-bg-imge h3 {
+    font-size: 4rem;
+    padding-top: 15px;
+    margin-top: -6%;
+    font-weight: 600;
+  }
+}
+
 @media screen and (max-width: 990px) {
   .rentus-bg-imge h2 {
     padding-top: 15%;
@@ -1320,7 +1336,7 @@
 
 @media screen and (max-width: 881px) {
   .rentus-bg-imge h2 {
-    padding-top: 15%;
+    padding-top: 22%;
     font-size: 5rem;
   }
 
@@ -1332,9 +1348,9 @@
   }
 }
 
-@media screen and (max-width: 758px) {
+@media screen and (max-width: 755px) {
   .rentus-bg-imge h2 {
-    padding-top: 10%;
+    padding-top: 25%;
     font-size: 5rem;
   }
 
@@ -1348,8 +1364,8 @@
 
 @media screen and (max-width: 600px) {
   .rentus-bg-imge h2 {
-    padding-top: 10%;
-    font-size: 5rem;
+    padding-top: 25%;
+    font-size: 4rem;
   }
 
   .rentus-bg-imge h3 {
@@ -1361,7 +1377,7 @@
 
 @media screen and (max-width: 490px) {
   .rentus-bg-imge h2 {
-    padding-top: 25%;
+    padding-top: 45%;
     font-size: 3.5rem;
   }
 
@@ -1560,6 +1576,12 @@
   padding-top: 30px;
 }
 
+@media screen and (max-width: 1211px) {
+  .about-2st-img img {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 990px) {
   .about-1st-img img {
     width: 100%;
@@ -1630,8 +1652,12 @@
   background-color: rgba(0, 0, 0, 0.5);
   overflow: hidden;
   width: 100%;
-  height: 75px;
+  height: 70px;
   transition: 0.5s ease;
+}
+
+.overlay .text h5 {
+  padding-top: 18px;
 }
 
 .animation-img:hover .overlay {
@@ -1648,6 +1674,12 @@
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 990px) {
+  .animation-img {
+    margin: 10px;
+  }
 }
 
 @media screen and (max-width: 770px) {
@@ -1890,6 +1922,19 @@
   color: var(--black-color) !important;
 }
 
+@media screen and (max-width: 990px) {
+  .left-text p {
+    text-align: center;
+    font-weight: 700;
+    font-size: 13px;
+  }
+
+  .left-bottom-icon i {
+    font-size: 10px;
+    font-weight: 900;
+  }
+}
+
 @media screen and (max-width: 700px) {
   .left-colum img {
     width: 100%;
@@ -1912,7 +1957,7 @@
   }
 
   .left-bottom-icon i {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .right-colum {
